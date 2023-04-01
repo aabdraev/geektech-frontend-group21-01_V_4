@@ -1,0 +1,158 @@
+.App {
+    width: 800px;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    background-color: #1c1d24;
+}
+
+.header .header__links {
+    display: flex;
+    align-items: center;
+}
+
+.header .header__btns {
+    padding: 0 10px;
+    border-left: 1px solid #cbcbcb;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__btns p {
+    font-size: 16px;
+    color: #cbcbcb;
+}
+
+.header .link {
+    font-size: 16px;
+    color: #cbcbcb;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header .link.active {
+    font-size: 18px;
+    color: #3282bf;
+}
+
+.header a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.login__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form {
+    box-shadow: 0px 0px 150px 10px #1c1d24;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #1c1d24;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login__form .login__greetings {
+    text-align: center;
+    color: #1c1d24;
+}
+
+.login__greetings h3 {
+    color: #1c1d2490;
+}
+
+.main__inner {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__inner h1 {
+    text-align: center;
+}
+
+.main__inner .calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.calculator .calculator__values {
+    display: flex;
+    gap: 10px;
+}
+
+.photo__card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo__card_btns {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #3282bf;
+}
+
+.photo__card_btns a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about__inner {
+    height: 90%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about__btns {
+    margin-left: auto;
+}
+
+.photo__inner {
+    padding: 0 20px;
+}
+
+.photo__inner h1 {
+    text-align: center;
+}
+
+.photo__inner .photo__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error__inner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
